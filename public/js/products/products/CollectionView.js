@@ -1,0 +1,1 @@
+define(["backbone.marionette","./collection-template","./ItemView"],function(e,t,i){return e.CompositeView.extend({template:t,tagName:"table",className:"products",childView:i,childViewContainer:"tbody"})});

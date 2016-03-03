@@ -1,0 +1,1 @@
+define(["backbone","backbone.marionette","./template"],function(e,n,t){var r=n.ItemView.extend({template:t});return e.Router.extend({initialize:function(e){this.container=e.container},routes:{"order/:orderId":"order"},order:function(n){var t=new e.Model;t.fetch({url:"/order/"+n}).done(function(){var e=new r({model:t});this.container.show(e)}.bind(this))}})});

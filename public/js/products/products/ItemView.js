@@ -1,0 +1,1 @@
+define(["backbone.marionette","./item-template"],function(e,t){return e.ItemView.extend({tagName:"tr",className:"product",template:t,initialize:function(){this.listenTo(this.model,"change",this.render)},events:{"click button":"toggle"},toggle:function(){this.model.toggle()}})});

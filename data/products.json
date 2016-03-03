@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Microsoft Lumia 950 XL Dual Sim Black",
+        "price": 17999,
+        "available": true
+    },
+    {
+        "id": 2,
+        "name": "Samsung Galaxy S6 SS 32GB G920 Blue",
+        "price": 15999,
+        "available": true
+    },
+    {
+        "id": 3,
+        "name": "LG Google Nexus 5X 16GB Black",
+        "price": 12444,
+        "available": false
+    },
+    {
+        "id": 4,
+        "name": "Lenovo Vibe S1 Gold",
+        "price": 8999,
+        "available": true
+    },
+    {
+        "id": 5,
+        "name": "Samsung Galaxy Note 5 N920 Black",
+        "price": 19999,
+        "available": false
+    }
+]

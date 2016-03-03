@@ -1,0 +1,1 @@
+define(["backbone","./Model"],function(e,n){return e.Collection.extend({url:"/products",model:n})});

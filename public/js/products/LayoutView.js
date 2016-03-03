@@ -1,0 +1,1 @@
+define(["backbone.marionette","./template"],function(t,e){return t.LayoutView.extend({template:e,regions:{cart:".cart-strip",products:".products"}})});

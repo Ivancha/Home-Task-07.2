@@ -1,0 +1,1 @@
+define(["backbone.marionette","./LayoutView"],function(e,i){return e.Application.extend({initialize:function(){this.layout=new i,this.layout.render()}})});

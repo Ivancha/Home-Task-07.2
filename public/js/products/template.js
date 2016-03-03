@@ -1,0 +1,1 @@
+define(["libs/jade"],function(i){return function(i){var n=[];return n.push('<div class="cart-strip"></div><div class="products"></div>'),n.join("")}});

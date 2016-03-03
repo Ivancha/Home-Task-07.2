@@ -1,0 +1,1 @@
+define(["backbone.marionette","./template"],function(e,t){return e.LayoutView.extend({el:document.body,template:t,regions:{header:".application-header",content:".application-content",footer:".application-footer"}})});

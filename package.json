@@ -1,0 +1,36 @@
+{
+    "name": "lecture-12-sample-app",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "start": "node www.js"
+    },
+    "dependencies": {
+        "requirejs": "^2.1.22",
+        "jquery": "^2.2.0",
+        "body-parser": "^1.14.2",
+        "cookie-parser": "^1.4.1",
+        "debug": "^2.2.0",
+        "express": "^4.13.4",
+        "jade": "^1.11.0",
+        "less-middleware": "^2.0.1",
+        "morgan": "^1.6.1",
+        "serve-favicon": "^2.3.0",
+        "backbone": "^1.2.3",
+        "backbone.marionette": "^2.4.4",
+        "underscore": "^1.8.3"
+    },
+
+    "devDependencies": {
+        "del": "^2.2.0",
+        "gulp": "^3.9.0",
+        "gulp-uglify": "^1.5.1",
+        "gulp-sync": "^0.1.4",
+        "gulp-cssnano": "^2.1.0",
+        "gulp-jade": "^1.1.0",
+        "gulp-rename": "^1.2.2",
+        "gulp-wrap": "^0.11.0",
+        "gulp-less": "^3.0.5",
+        "gulp-watch": "^4.3.5"
+    }
+}
